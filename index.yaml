@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  backend:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-07-03T12:16:37.4825015-04:00"
+    description: A Helm chart for Guestbook Backend 1.0
+    digest: 96e1939b5735c14de2373af81d18e65014b13cf91aa20205ee68b7a4d15c829f
+    name: backend
+    type: application
+    urls:
+    - backend-1.2.0.tgz
+    version: 1.2.0
+  database:
+  - apiVersion: v2
+    appVersion: "3.6"
+    created: "2021-07-03T12:16:37.4852866-04:00"
+    description: A Helm chart for Guestbook Database Mongodb 3.6
+    digest: 818a091b412435095ff2f76d434bd64788314c35d3161bcdadff34333504a271
+    name: database
+    type: application
+    urls:
+    - database-1.2.0.tgz
+    version: 1.2.0
+  frontend:
+  - apiVersion: v2
+    appVersion: "2"
+    created: "2021-07-03T12:16:37.4881469-04:00"
+    description: Ernest's guestbook 2.0 - frontend
+    digest: 1e1a687245dcb4cfb050bea7095df0921a7ef2f3487ef3919ba031fd2f07d942
+    name: frontend
+    type: application
+    urls:
+    - frontend-1.1.0.tgz
+    version: 1.1.0
+generated: "2021-07-03T12:16:37.4790358-04:00"
